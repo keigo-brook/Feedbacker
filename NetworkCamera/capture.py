@@ -5,9 +5,9 @@ from datetime import datetime
 
 
 movie_host = {
-    'ip': os.getenv('SSS_RTSP_HOST'),
-    'user': os.getenv('SSS_RTSP_USER'),
-    'password': os.getenv('SSS_RTSP_PASS')
+    'ip': os.getenv('SSS_WEBCAM_HOST'),
+    'user': os.getenv('SSS_WEBCAM_USER'),
+    'password': os.getenv('SSS_WEBCAM_PASS')
 }
 
 data_path = {
@@ -21,7 +21,7 @@ def get_segment_video(seg_size):
     """
     rtsp経由でseg_size秒のts動画を取得
     """
-    command = "ffmpeg -i rtsp://{0}:{1}@{2}/MediaInput/h264 \
+    command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
     -loglevel quiet \
     -vcodec copy \
     -map 0 \
@@ -45,7 +45,7 @@ def get_image():
     rtsp経由で画像を一枚取得
     """
 
-    command = "ffmpeg -i rtsp://{0}:{1}@{2}/MediaInput/h264 \
+    command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
     -vframes 1 \
     {3}/{4}.jpg".format(
         movie_host['user'],
