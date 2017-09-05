@@ -56,7 +56,7 @@ class CameraMode():
 
             time.sleep(1)
             count += 1
-            if count == 6:
+            if count == 60*60L:
                 count = 0
 
 
@@ -68,7 +68,7 @@ class CameraMode():
 
             time.sleep(1)
             count += 1
-            if count == 3:
+            if count == 60*5L:
                 count = 0
 
 

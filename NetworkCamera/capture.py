@@ -46,6 +46,7 @@ def get_image():
     """
 
     command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
+    -loglevel quiet \
     -vframes 1 \
     {3}/{4}.jpg".format(
         movie_host['user'],
