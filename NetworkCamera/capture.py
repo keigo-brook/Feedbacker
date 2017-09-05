@@ -52,7 +52,7 @@ def get_image():
         movie_host['password'],
         movie_host['ip'],
         data_path['jpg'],
-        str(datetime.now())
+        datetime.now().isoformat()
     )
     print(command)
     os.system(command)
