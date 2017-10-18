@@ -4,11 +4,21 @@ import os
 import json
 import paho.mqtt.client as mqtt
 import camera_mode_selector
+from logging import getLogger, FileHandler, StreamHandler, DEBUG
+logger = getLogger(__name__)
+if not logger.handlers:
+    fileHandler = FileHandler(r'./log/camera_runner.log')
+    fileHandler.setLevel(DEBUG)
+    streamHander = StreamHandler()
+    streamHander.setLevel(DEBUG)
+    logger.setLevel(DEBUG)
+    logger.addHandler(fileHandler)
+    logger.addHandler(streamHander)
 
 
 # MQTT broker server
 host = os.getenv('SSS_MQTT_HOST')
-port = os.getenv('SSS_MQTT_PORT')
+port = int(os.getenv('SSS_MQTT_PORT'))
 
 # subscribe topic
 sub_topic = 'sensor/event'
@@ -17,15 +27,16 @@ pub_topic = 'sensor/feedback/result/'
 
 
 def on_connect(client, data, flags, response_code):
-    print('status {0}'.format(response_code))
+    logger.info('status {0}'.format(response_code))
     client.subscribe(sub_topic)
 
 
 def on_message(client, data, msg):
     # msg.payload = { 'event' XX, 'changed': true }
-    event = json.loads(msg.payload)['event']
+    logger.info('Received: {0} {1}'.format(msg.topic, msg.payload))
+    payload = msg.payload.decode('utf8').replace("'", '"')
+    event = json.loads(payload)['event']
     camera_mode_selector.change_mode(event)
-    print('Received: {0} {1}'.format(msg.topic, msg.payload))
 
 
 def main():

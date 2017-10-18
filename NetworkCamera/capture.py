@@ -1,8 +1,18 @@
 # -*- coding: utf-8 -*-
 
 import os
+import subprocess
 from datetime import datetime
-
+from logging import getLogger, FileHandler, StreamHandler, DEBUG
+logger = getLogger(__name__)
+if not logger.handlers:
+    fileHandler = FileHandler(r'./log/capture.log')
+    fileHandler.setLevel(DEBUG)
+    streamHander = StreamHandler()
+    streamHander.setLevel(DEBUG)
+    logger.setLevel(DEBUG)
+    logger.addHandler(fileHandler)
+    logger.addHandler(streamHander)
 
 movie_host = {
     'ip': os.getenv('SSS_WEBCAM_HOST'),
@@ -21,23 +31,34 @@ def get_segment_video(seg_size):
     """
     rtsp経由でseg_size秒のts動画を取得
     """
-    command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
-    -loglevel quiet \
-    -vcodec copy \
-    -map 0 \
-    -f segment \
-    -segment_format mpegts \
-    -segment_time {3} \
-    -segment_list  {4}/live.m3u8 \
-    {4}/%d.ts".format(
-        movie_host['user'],
-        movie_host['password'],
-        movie_host['ip'],
-        seg_size,
-        data_path['ts'],
-    )
-    print(command)
-    os.system(command)
+
+    process = subprocess.Popen([
+        'ffmpeg',
+        '-f', 'mjpeg',
+        '-i',"http://{0}:{1}@{2}/cgi-bin/mjpeg".format(movie_host['user'], movie_host['password'], movie_host['ip']),
+        '-loglevel', 'warning',
+        '-vcodec', 'copy',
+        "{0}/{1}.avi".format(data_path['ts'], datetime.now().isoformat())
+    ])
+    try:
+        process.wait(timeout=seg_size)
+    except subprocess.TimeoutExpired:
+        process.kill()
+
+    #command = "ffmpeg -f mjpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
+    #-loglevel info \
+    #-vcodec copy \
+    #{4}/{6}.avi".format(
+    #    movie_host['user'],
+    #    movie_host['password'],
+    #    movie_host['ip'],
+    #    seg_size,
+    #    data_path['ts'],
+    #    seg_size,
+    #    datetime.now().isoformat()
+    #)
+    #print(command)
+    #os.system(command)
 
 
 def get_image():
@@ -46,8 +67,7 @@ def get_image():
     """
 
     command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
-    -loglevel quiet \
-    -vframes 1 \
+    -vframes 1 -loglevel warning \
     {3}/{4}.jpg".format(
         movie_host['user'],
         movie_host['password'],
@@ -55,7 +75,7 @@ def get_image():
         data_path['jpg'],
         datetime.now().isoformat()
     )
-    print(command)
+    logger.info(command)
     os.system(command)
 
 
@@ -65,7 +85,7 @@ def encode(file_path):
     framerate = 30
 
     command = "ffmpeg -i {0} \
-    -loglevel quiet \
+    -loglevel warning \
     -vcodec {1} \
     -b:v {2} \
     -map 0:0 \
@@ -76,5 +96,5 @@ def encode(file_path):
         data_path['mp4'],
         os.path.splitext(os.path.basename(file_path))[0] + '.mp4'
     )
-    print(command)
+    logger.info(command)
     os.system(command)

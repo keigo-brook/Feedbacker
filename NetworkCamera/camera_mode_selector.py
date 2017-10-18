@@ -3,6 +3,17 @@
 import capture
 import threading
 import time
+from logging import getLogger, FileHandler, StreamHandler, DEBUG
+
+logger = getLogger(__name__)
+if not logger.handlers:
+    fileHandler = FileHandler(r'./log/mode_selector.log')
+    fileHandler.setLevel(DEBUG)
+    streamHander = StreamHandler()
+    streamHander.setLevel(DEBUG)
+    logger.setLevel(DEBUG)
+    logger.addHandler(fileHandler)
+    logger.addHandler(streamHander)
 
 t = None
 
@@ -39,13 +50,17 @@ class CameraMode():
 
     def get_mode(self, mode_num):
         if mode_num == 0:
+            logger.info("Node: {0}".format(mode_num))
             return self.normal_mode
         elif mode_num == 1:
+            logger.info("Node: {0}".format(mode_num))
             return self.caution_mode
         elif mode_num == 2:
+            logger.info("Node: {0}".format(mode_num))
             return self.alert_mode
         else:
-            raise ValueError("Unknown mode: {0}".format(mode_num))
+            logger.info("Unknown mode: {0}".format(mode_num))
+            return self.normal_mode
 
 
     def normal_mode(self):
@@ -56,7 +71,7 @@ class CameraMode():
 
             time.sleep(1)
             count += 1
-            if count == 60*60L:
+            if count == 60*60:
                 count = 0
 
 
@@ -68,17 +83,11 @@ class CameraMode():
 
             time.sleep(1)
             count += 1
-            if count == 60*5L:
+            if count == 60*5:
                 count = 0
 
 
     def alert_mode(self):
         count = 0
         while not self.stop_event.is_set():
-            if count == 0:
-                capture.get_segment_video()
-
-            time.sleep(1)
-            count += 1
-            if count == 60:
-                count = 0
+            capture.get_segment_video(60)
