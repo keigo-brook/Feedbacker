@@ -1,1 +1,260 @@
 status 0
+status 0
+status 0
+status 0
+status 0
+Received: sensor/event {"changed": false, "event": 2}
+status 0
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+status 0
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+status 0
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+status 0
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+status 0
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": false, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": true, "event": 2}
+Received: sensor/event {"changed": true, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
+Received: sensor/event {"changed": false, "event": 0}
