@@ -1,0 +1,250 @@
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:12:03.439464.jpg
+scp -qi ~/.ssh/id_rsa 	       	   -P None 		   ./data/jpg/2017-10-28T20:12:03.439464.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:39:44.493941.jpg
+scp -qi ~/.ssh/id_rsa 	       	   -P None 		   ./data/jpg/2017-10-28T20:39:44.493941.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:40:47.864235.jpg
+scp -qi ~/.ssh/id_rsa 	       	   -P None 		   ./data/jpg/2017-10-28T20:40:47.864235.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:40:51.903164.jpg
+scp -qi ~/.ssh/id_rsa 	       	   -P None 		   ./data/jpg/2017-10-28T20:40:51.903164.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:55:25.201181.jpg
+scp -qi ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T20:55:25.201181.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:57:01.675582.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T20:57:01.675582.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T20:59:51.283253.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T20:59:51.283253.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:04:51.052069.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:04:51.052069.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:09:50.803507.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:09:50.803507.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:14:51.568005.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:14:51.568005.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:19:51.346354.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:19:51.346354.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:24:51.053458.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:24:51.053458.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:29:51.792457.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:29:51.792457.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:34:51.569497.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:34:51.569497.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:39:51.249124.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:39:51.249124.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:44:50.997932.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:44:50.997932.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:49:51.748530.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:49:51.748530.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:54:51.485104.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:54:51.485104.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T21:59:51.107630.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T21:59:51.107630.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T22:29:55.429865.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T22:29:55.429865.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T22:59:59.806774.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T22:59:59.806774.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T23:30:04.146300.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T23:30:04.146300.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-28T23:59:51.264333.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-28T23:59:51.264333.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T00:29:55.567327.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T00:29:55.567327.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T00:59:59.836415.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T00:59:59.836415.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T01:30:04.319601.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T01:30:04.319601.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T02:00:08.738386.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T02:00:08.738386.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T02:30:13.153320.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T02:30:13.153320.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T03:00:17.548885.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T03:00:17.548885.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T03:30:22.026203.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T03:30:22.026203.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T04:00:26.451693.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T04:00:26.451693.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T04:30:30.915788.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T04:30:30.915788.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T05:00:36.653096.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T05:00:36.653096.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T05:30:41.076851.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T05:30:41.076851.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T06:00:45.942689.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T06:00:45.942689.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T06:30:50.350828.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T06:30:50.350828.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T07:00:54.823311.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T07:00:54.823311.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T07:30:59.544364.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T07:30:59.544364.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T08:01:03.378924.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T08:01:03.378924.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T08:31:07.321140.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T08:31:07.321140.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T09:01:11.764115.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T09:01:11.764115.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T09:31:16.600615.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T09:31:16.600615.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T10:01:20.417684.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T10:01:20.417684.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T10:31:24.424719.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T10:31:24.424719.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T10:59:54.046385.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T10:59:54.046385.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:00:56.236235.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:00:56.236235.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:01:58.450917.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:01:58.450917.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:03:00.645965.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:03:00.645965.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:04:02.860742.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:04:02.860742.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:04:53.160709.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:04:53.160709.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:05:55.347446.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:05:55.347446.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:06:57.530077.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:06:57.530077.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:07:59.719798.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:07:59.719798.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:27:25.835003.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:27:25.835003.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:28:28.382227.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:28:28.382227.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:29:30.688963.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:29:30.688963.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:29:51.945763.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:29:51.945763.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:34:52.477441.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:34:52.477441.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:39:52.061369.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:39:52.061369.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:44:52.640859.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:44:52.640859.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:49:52.223150.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:49:52.223150.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:54:52.791694.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:54:52.791694.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T11:59:52.347345.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T11:59:52.347345.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:04:51.914207.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:04:51.914207.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:09:52.509314.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:09:52.509314.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:14:52.085789.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:14:52.085789.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:19:51.858349.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:19:51.858349.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:24:54.768744.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:24:54.768744.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:25:57.005930.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:25:57.005930.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:26:59.213676.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:26:59.213676.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:28:01.383187.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:28:01.383187.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:29:03.574399.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:29:03.574399.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:29:55.781743.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:29:55.781743.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:30:58.012498.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:30:58.012498.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:32:00.221597.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:32:00.221597.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:33:02.416288.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:33:02.416288.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:34:04.647701.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:34:04.647701.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:34:56.850348.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:34:56.850348.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:35:59.044148.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:35:59.044148.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:37:01.288901.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:37:01.288901.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:38:03.483943.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:38:03.483943.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:39:05.724459.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:39:05.724459.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:39:54.902403.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:39:54.902403.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:40:57.091118.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:40:57.091118.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:41:59.428768.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:41:59.428768.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:43:01.762667.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:43:01.762667.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:44:04.049449.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:44:04.049449.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:44:52.370538.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:44:52.370538.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:49:52.145228.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:49:52.145228.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:54:51.673313.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:54:51.673313.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:54:52.714265.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:54:52.714265.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:55:55.832266.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:55:55.832266.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:59:23.529910.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:59:23.529910.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T12:59:52.685772.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T12:59:52.685772.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T14:53:15.735922.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T14:53:15.735922.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:53:56.756159.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:53:56.756159.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:03.196553.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:54:03.196553.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:13.383990.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:54:13.383990.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:22.511614.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:54:22.511614.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:32.632734.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:54:32.632734.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:41.799651.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:54:41.799651.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:53.946980.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T17:54:53.946980.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:54:57.073154.jpg
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T17:57:58.440123.jpg
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:00:18.794935.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:00:18.794935.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:01:38.012063.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:01:38.012063.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:02:22.220741.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:02:22.220741.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:04:54.520202.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:04:54.520202.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:04:57.660295.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:04:57.660295.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:10:35.030056.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:10:35.030056.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:12:30.359050.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:12:30.359050.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:14:21.563826.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:14:21.563826.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:15:31.431531.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:15:31.431531.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:15:34.600492.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:15:34.600492.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:15:39.708831.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:15:39.708831.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:15:48.841068.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:15:48.841068.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:16:35.936055.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:16:35.936055.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:17:54.190327.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:17:54.190327.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:18:35.346907.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:18:35.346907.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:19:10.494281.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:19:10.494281.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:19:54.696752.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:19:54.696752.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:19:58.824394.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:19:58.824394.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:24:54.204587.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:24:54.204587.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:24:57.316831.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:24:57.316831.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:29:54.843167.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:29:54.843167.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG
+ffmpeg -i http://kattolab:Katt01aB@localhost:8080/cgi-bin/mjpeg     -vframes 1 -loglevel warning     ./data/jpg/2017-10-29T18:29:57.973793.jpg
+scp -i ~/.ssh/id_rsa 	       	   -P 18888 		   ./data/jpg/2017-10-29T18:29:57.973793.jpg 		   kattolab@localhost:/home/kattolab/fieldIMG

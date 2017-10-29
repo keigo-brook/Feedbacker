@@ -71,7 +71,9 @@ class CameraMode():
 
             time.sleep(1)
             count += 1
-            if count == 60*60:
+	    ## modified by k.k
+            #if count == 60*60:
+	    if count == 60 * 30:
                 count = 0
 
 
@@ -90,4 +92,13 @@ class CameraMode():
     def alert_mode(self):
         count = 0
         while not self.stop_event.is_set():
-            capture.get_segment_video(60)
+	    ## modified by k.k
+	    # Captured image for each 60 sec.
+            #capture.get_segment_video(60)
+	    if count == 0:
+		capture.get_image()
+
+	    time.sleep(1)
+	    count += 1
+	    if count == 60 * 1:
+		count = 0

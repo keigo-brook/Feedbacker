@@ -26,6 +26,15 @@ data_path = {
     'mp4': './data/mp4'
 }
 
+##############
+## added by k.k
+
+cloud_path = {
+    'port': os.getenv('SSS_CLOUD_PORT'),
+    'user': os.getenv('SSS_CLOUD_USER'),
+    'dir': os.getenv('SSS_CLOUD_DIR')
+}
+#############
 
 def get_segment_video(seg_size):
     """
@@ -65,6 +74,9 @@ def get_image():
     """
     rtsp経由で画像を一枚取得
     """
+    ###################
+    ## modified by k.k
+    curTime = datetime.now().isoformat()
 
     command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
     -vframes 1 -loglevel warning \
@@ -73,10 +85,26 @@ def get_image():
         movie_host['password'],
         movie_host['ip'],
         data_path['jpg'],
-        datetime.now().isoformat()
+	curTime
     )
+
+    ####
+    #command = "ffmpeg -i http://{0}:{1}@{2}/cgi-bin/mjpeg \
+    #-vframes 1 -loglevel warning \
+    #{3}/{4}.jpg".format(
+    #    movie_host['user'],
+    #    movie_host['password'],
+    #    movie_host['ip'],
+    #    data_path['jpg'],
+    #    datetime.now().isoformat()
+    #)
+    ####
+
     logger.info(command)
     os.system(command)
+
+    # after capturing image, upload to server
+    upload_img(curTime)
 
 
 def encode(file_path):
@@ -98,3 +126,31 @@ def encode(file_path):
     )
     logger.info(command)
     os.system(command)
+
+
+###################
+## added by k.k
+
+def upload_img(file_path):
+    key = '~/.ssh/id_rsa'
+    dst = 'localhost'
+    port = 18888
+
+    command = "scp -i {0} \
+	       	   -P {1} \
+		   {2}/{3}.jpg \
+		   {4}@{5}:{6}".format(
+			key,
+			port,
+			data_path['jpg'],
+			file_path,
+			cloud_path['user'],
+			dst,
+			cloud_path['dir']
+    )
+    logger.info(command)
+    os.system(command)
+	
+
+			
+			

@@ -28,6 +28,7 @@ pub_topic = 'sensor/feedback/result/'
 
 def on_connect(client, data, flags, response_code):
     logger.info('status {0}'.format(response_code))
+    camera_mode_selector.change_mode('2')
     client.subscribe(sub_topic)
 
 
@@ -35,8 +36,9 @@ def on_message(client, data, msg):
     # msg.payload = { 'event' XX, 'changed': true }
     logger.info('Received: {0} {1}'.format(msg.topic, msg.payload))
     payload = msg.payload.decode('utf8').replace("'", '"')
-    event = json.loads(payload)['event']
-    camera_mode_selector.change_mode(event)
+    event = json.loads(payload)
+    if event['changed']:
+        camera_mode_selector.change_mode(event['event'])
 
 
 def main():
