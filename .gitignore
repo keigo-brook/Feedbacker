@@ -1,3 +1,4 @@
 *.pyc
 NetworkCamera/data
 NetworkCamera/.env
+NetworkCamera/log

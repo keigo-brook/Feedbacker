@@ -37,7 +37,7 @@ def on_message(client, data, msg):
     logger.info('Received: {0} {1}'.format(msg.topic, msg.payload))
     payload = msg.payload.decode('utf8').replace("'", '"')
     event = json.loads(payload)
-    if event['changed']:
+    if event['changed'] and event['sensor'] != 'E':
         camera_mode_selector.change_mode(event['event'])
 
 

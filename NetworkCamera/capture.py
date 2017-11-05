@@ -132,21 +132,13 @@ def encode(file_path):
 ## added by k.k
 
 def upload_img(file_path):
-    key = '~/.ssh/id_rsa'
-    dst = 'localhost'
-    port = 18888
+    key = '~/.ssh/kattolab_controll_pc_id_rsa'
+    dst = '10.0.0.11'
 
-    command = "scp -i {0} \
-	       	   -P {1} \
-		   {2}/{3}.jpg \
-		   {4}@{5}:{6}".format(
-			key,
-			port,
-			data_path['jpg'],
-			file_path,
-			cloud_path['user'],
-			dst,
-			cloud_path['dir']
+    command = "scp -i {0} {1}/{2}.jpg kattolab@10.0.0.11:~/ && ssh kattolab@10.0.0.11 -i {0} './ftput.sh ./{2}.jpg && rm -f ./{2}.jpg'".format(
+        		key,
+        		data_path['jpg'],
+        		file_path
     )
     logger.info(command)
     os.system(command)
